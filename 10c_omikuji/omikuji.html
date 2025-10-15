@@ -11,15 +11,18 @@
 
 <body>
    <!-- オープニングシャッターアニメーション　-->
+   <div class="back">
+      <button id="btn99" class="btn" type="button" onclick="history.back()">back</button>
+   </div>
    <div class="shutter opening"></div>
    <header>今日のあなたの運勢は？</header>
    <div class="wrapper" title="大吉だといいね~">
-   <div class="omikuji">   
-      <div id="btn1"></div>
-      <div id="omikujiText">
-         <img id="omikujiTextImage" src="">
+      <div class="omikuji">
+         <div id="btn1"></div>
+         <div id="omikujiText">
+            <img id="omikujiTextImage" src="">
          </div>
-    </div>
+      </div>
    </div>
    <footer>
       <p>copyright 2025 s247125 Tomar Ajay</p>
@@ -31,7 +34,7 @@
    <script src="assets/snowfall.jquery.min.js"></script>
    <script src="assets/jquery.lettering.js"></script>
    <script src="assets/jquery.textillate.js"></script>
-   
+
    <script src="js/omikuji.js"></script>
 </body>
 
